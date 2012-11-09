@@ -9,7 +9,7 @@ Licensed under the CC Attribution license. [ http://creativecommons.org/licenses
 Step 1. Download and Install CodeIgniter
 
 * http://codeigniter.com/downloads/
-* replace the .htaccess in your application's root with this one.
+* replace the .htaccess in your domain's root with this one.
 
 Step 2. Create the Database
 
@@ -17,6 +17,7 @@ Step 2. Create the Database
 * Connect database to CodeIgniter - /config/database.php
 
 Step 3. Place Controllers, Models and Views into the respective folders in /application
+* Also place css, js, and img in your domain's root
 
 Step 4. Secure and configure CodeIgniter - /config/config.php
 
