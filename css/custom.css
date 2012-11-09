@@ -1,0 +1,99 @@
+.navbar{ margin-bottom: 0px; }
+.navbar h1 {
+font-size: 26px;
+line-height: 30px;
+}
+.navbar h1 .socia{ color: #aaa; }
+.navbar h1 .panda{ color: #fff; }
+.navbar h1 a:link, .navbar h1 a:visited, .navbar h1 a:hover{ text-decoration: none; }
+.navbar-search{ margin-top: 10px; }
+
+.navbar-inner{
+-webkit-border-radius: 0;
+     -moz-border-radius: 0;
+          border-radius: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+.nav-thumb{ padding: 5px 5px 0 0; }
+.friend {float: left;}
+textarea{ resize: none; width: 96%; display: block; }
+.textareaClone{min-height: 5em;}
+.expanding{min-height: 5em;}
+.post-form .textareaClone, .post-form .expanding{min-height: 3em; margin-bottom: 21px;}
+.post-form .btn{margin-right: 3%;}
+.comment-form .textareaClone, .comment-form .expanding{min-height: 1em; margin-bottom: 16px;}
+.comment-form{margin-bottom: 21px; width:80%; float:  right;}
+.comment-form .btn{margin-right: 3%;}
+.shove-down{clear: both; display: block; margin-top: 21px;}
+
+.thread-item a:link, .thread-item a:visited{width: 90%; text-align: left;}
+.thread-item p{margin: 0px;}
+.thread-users{font-weight: bold;}
+
+.message{margin: 10px 0; border-top: 1px #aaa dotted; padding-top: 10px;}
+.user-thumb{float: left; margin-right: 5px;}
+
+.post-info{margin-bottom: 10px;}
+.post-item{ clear: both; margin-top: 18px;}
+.date-permalink:link, .date-permalink:visited{color: #999; text-decoration: none;}
+.date-permalink:hover{color: #005580; text-decoration: underline;}
+.view-thread {width:80%; float:  right;}
+.comment-item{width:80%; float:  right;}
+.friends-module h4{ clear: both; padding-top: 21px;}
+
+.single-post{margin-top: 15px;}
+.single-post .post-item{ 
+    clear: both;
+    margin-top: 0px;
+}
+.footer{margin-top: 30px;}
+.copyright p{float: right;}
+
+.homepage h3{font-size:36px;line-height:40px;}
+.homepage h4{font-size:20px;line-height:30px;}
+.homepage ul li {font-size:14px;line-height:26px; list-style-type: none;}
+.over-sized-login .btn{margin-top: 20px; height: 50px; font-size:20px;line-height:30px;}
+
+@media (max-width: 480px) {
+    .edit-profile{float: none;}
+}
+
+@media (max-width: 767px) {
+    body{ padding-left: 0; padding-right: 0; }
+    .navbar-inner{ padding-left: 20px; padding-right: 20px; }
+    .the-content{ padding-left: 20px; padding-right: 20px; }
+    .friend{ width: 12%; }
+    .profile-photo{ width: 25%; float: left; }
+    .profile-items{ width: 72%; margin-left: 3%; float: left; }
+    .user-buttons{ margin-top: 13px; margin-left: 10px; }
+    .user-info h2{float: left;}
+    .user-info h3 { font-size: 14px; line-height: 20px;}
+    .user-gender, .user-relationship { float: left; width: 50%}
+    .user-gender { clear: both; }
+    .user-gender h3, .user-relationship h3 { margin: 0 5px 0 0; float: left;}
+    .user-information{ clear: both; }
+    #user-collapse{ margin-top: 13px; }
+    .user-buttons { float: left; margin-top: 10px; }
+    .user-posts{ clear: both; }
+    .edit-profile{float: left;}
+    #filter-collapse h3{display: none;}
+    .filter-section{float: left; margin-right: 5%;}
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+    .friend{ width: 25%; }
+    .edit-profile{float: right;}
+    #user-collapse{height:auto; overflow: auto;}
+    #filter-collapse{height:auto; overflow: auto;}
+    .user-info h3{ font-size: 16px; line-height: 20px; margin-top: 20px;}
+}
+
+@media (min-width: 980px) {
+    .friend{ width: 25%; }
+    .edit-profile{float: right;}
+    #user-collapse{height:auto; overflow: auto;}
+    #filter-collapse{height:auto; overflow: auto;}
+    .container-fluid{width:980px; margin: 0 auto;}
+    .user-info h3{ font-size: 16px; line-height: 20px; margin-top: 20px;}
+}
